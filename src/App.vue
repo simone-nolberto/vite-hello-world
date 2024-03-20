@@ -3,7 +3,7 @@
 export default {
   data() {
     return {
-
+      title: 'Hello World!'
     }
   }
 }
@@ -11,7 +11,7 @@ export default {
 </script>
 
 <template>
-
+<h1>{{ title }}</h1>
 </template>
 
 <style></style>
